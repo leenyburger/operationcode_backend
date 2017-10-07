@@ -6,13 +6,13 @@ def build_response(code: 200)
   response_struct
 end
 
-def groups_endpoints_response
+def group_endpoint_response
   response = build_response
-  response.parsed_response = groups_endpoint_parsed_response
+  response.parsed_response = group_endpoint_parsed_response
   response
 end
 
-def groups_endpoint_parsed_response
+def group_endpoint_parsed_response
   [
     {
       "id"=>26005124,
